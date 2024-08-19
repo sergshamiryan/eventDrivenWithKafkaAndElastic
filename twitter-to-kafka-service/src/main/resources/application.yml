@@ -5,3 +5,8 @@ twitter-to-kafka-service:
     - Spring
     - Kafka
     - Elasticsearch
+  welcome-message: Hello to Twitter To Kafka Service
+  enable-mock-tweets: true
+  mock-min-tweet-length: 5
+  mock-max-tweet-length: 15
+  mock-sleep-max: 10000

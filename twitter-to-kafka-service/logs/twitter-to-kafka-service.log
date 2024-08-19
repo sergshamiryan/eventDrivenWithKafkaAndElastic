@@ -1,0 +1,16 @@
+2024-08-11 18:49:47 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 9700 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
+2024-08-11 18:49:47 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-11 18:49:47 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.521 seconds (process running for 3.246)
+2024-08-11 18:49:47 [main] INFO  s.s.t.t.k.s.r.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-08-11 18:49:47 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit libero pulvinar ultricies magna Spring lectus consectetuer sed libero
+2024-08-11 18:49:57 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text magna sit lectus Microservices sit purus
+2024-08-11 21:49:10 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 33336 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
+2024-08-11 21:49:10 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-11 21:49:10 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.998 seconds (process running for 2.357)
+2024-08-11 21:49:10 [main] INFO  s.s.t.t.k.s.r.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-08-11 21:49:11 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit malesuada congue massa sed Java ultricies elit elit
+2024-08-11 21:51:37 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 37072 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
+2024-08-11 21:51:37 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-11 21:51:37 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.931 seconds (process running for 2.063)
+2024-08-11 21:51:37 [main] INFO  s.s.t.t.k.s.r.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-08-11 21:51:37 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text pulvinar Lorem Fusce ipsum posuere lectus ipsum Elasticsearch porttitor ipsum dolor Fusce porttitor

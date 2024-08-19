@@ -1,0 +1,16 @@
+2024-08-04 14:07:15 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 6964 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
+2024-08-04 14:07:15 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-04 14:07:15 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.826 seconds (process running for 1.735)
+2024-08-04 14:07:15 [main] INFO  s.s.t.t.k.s.r.MockKafkaStreamRunner - Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2024-08-04 14:07:16 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ipsum magna posuere Fusce ultricies malesuada Lorem purus Kafka sit Maecenas elit massa sit porttitor lectus
+2024-08-04 14:07:26 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed congue Fusce adipiscing sed purus libero Microservices Fusce pulvinar lectus lectus magna dolor
+2024-08-04 14:07:36 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sed sed adipiscing sit sed Maecenas Microservices magna Fusce sed consectetuer
+2024-08-04 14:07:46 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit congue elit ipsum Java amet amet lectus
+2024-08-04 14:07:56 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text posuere libero massa purus consectetuer ultricies pulvinar libero Kafka Fusce libero ipsum elit pulvinar ultricies dolor
+2024-08-04 14:08:06 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text massa sed elit Fusce Maecenas malesuada Microservices dolor Lorem malesuada dolor
+2024-08-04 14:08:16 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text purus consectetuer ipsum Lorem congue purus porttitor Maecenas Microservices ultricies congue adipiscing elit sit ipsum
+2024-08-04 14:08:26 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text elit sit magna ultricies Elasticsearch lectus congue Fusce
+2024-08-04 14:08:36 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text lectus dolor congue congue malesuada libero Fusce Elasticsearch elit sed dolor dolor congue purus
+2024-08-04 14:08:46 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Maecenas elit Maecenas consectetuer ultricies Elasticsearch pulvinar ipsum congue pulvinar
+2024-08-04 14:08:56 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text sit sed Lorem purus purus ipsum Lorem libero Java sed magna posuere amet dolor congue
+2024-08-04 14:09:06 [pool-1-thread-1] INFO  s.s.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text massa sed sit magna elit Lorem Spring porttitor Maecenas magna purus
