@@ -30,6 +30,7 @@
         <java.version>21</java.version>
         <spring-boot.version>3.3.2</spring-boot.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <avro.version>1.10.0</avro.version>
     </properties>
 
     <dependencyManagement>
@@ -56,6 +57,11 @@
                 <artifactId>lombok</artifactId>
                 <version>1.18.34</version>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro</artifactId>
+                <version>${avro.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
