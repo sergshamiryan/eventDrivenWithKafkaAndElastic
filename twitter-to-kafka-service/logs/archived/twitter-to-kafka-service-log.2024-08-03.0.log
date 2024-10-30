@@ -11,7 +11,7 @@
 2024-08-03 11:42:38 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 15612 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
 2024-08-03 11:42:38 [main] DEBUG s.s.t.t.k.s.TwitterToKafkaServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
 2024-08-03 11:42:38 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2024-08-03 11:42:38 [main] DEBUG o.s.boot.SpringApplication - Loading source class serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication
+2024-08-03 11:42:38 [main] DEBUG o.s.boot.SpringApplication - Loading source class service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication
 2024-08-03 11:42:38 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71ea1fda
 2024-08-03 11:42:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 2024-08-03 11:42:38 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
@@ -871,7 +871,7 @@ Unconditional classes:
 2024-08-03 11:42:50 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 26344 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
 2024-08-03 11:42:50 [main] DEBUG s.s.t.t.k.s.TwitterToKafkaServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
 2024-08-03 11:42:50 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2024-08-03 11:42:50 [main] DEBUG o.s.boot.SpringApplication - Loading source class serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication
+2024-08-03 11:42:50 [main] DEBUG o.s.boot.SpringApplication - Loading source class service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication
 2024-08-03 11:42:50 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@545f80bf
 2024-08-03 11:42:50 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 2024-08-03 11:42:50 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
@@ -1747,7 +1747,7 @@ Unconditional classes:
 2024-08-03 11:51:02 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 14400 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
 2024-08-03 11:51:02 [main] DEBUG s.s.t.t.k.s.TwitterToKafkaServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
 2024-08-03 11:51:02 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2024-08-03 11:51:02 [main] DEBUG o.s.boot.SpringApplication - Loading source class serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication
+2024-08-03 11:51:02 [main] DEBUG o.s.boot.SpringApplication - Loading source class service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication
 2024-08-03 11:51:02 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b970f7
 2024-08-03 11:51:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 2024-08-03 11:51:02 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
@@ -2607,7 +2607,7 @@ Unconditional classes:
 2024-08-03 11:51:13 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 27524 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
 2024-08-03 11:51:13 [main] DEBUG s.s.t.t.k.s.TwitterToKafkaServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
 2024-08-03 11:51:13 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2024-08-03 11:51:13 [main] DEBUG o.s.boot.SpringApplication - Loading source class serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication
+2024-08-03 11:51:13 [main] DEBUG o.s.boot.SpringApplication - Loading source class service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication
 2024-08-03 11:51:13 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@30f4b1a6
 2024-08-03 11:51:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
 2024-08-03 11:51:13 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
@@ -3475,7 +3475,7 @@ Unconditional classes:
 2024-08-03 11:52:16 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 31512 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
 2024-08-03 11:52:16 [main] DEBUG s.s.t.t.k.s.TwitterToKafkaServiceApplication - Running with Spring Boot v3.3.2, Spring v6.1.11
 2024-08-03 11:52:16 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
-2024-08-03 11:52:16 [main] DEBUG o.s.boot.SpringApplication - Loading source class serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication
+2024-08-03 11:52:16 [main] DEBUG o.s.boot.SpringApplication - Loading source class service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication
 2024-08-03 11:52:16 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - JSR-250 'jakarta.annotation.ManagedBean' found and supported for component scanning
 2024-08-03 11:52:16 [RMI TCP Connection(1)-192.168.10.94] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.10.94: accepted socket from [192.168.10.94:3818]
 2024-08-03 11:52:16 [RMI TCP Connection(1)-192.168.10.94] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(1)-192.168.10.94: (port 3816) suggesting 192.168.10.94:3818
@@ -4169,7 +4169,7 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
-2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication.runner()
+2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication.runner()
 2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
 2024-08-03 11:52:16 [main] TRACE o.s.b.a.condition.OnBeanCondition - Condition OnBeanCondition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched due to @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
@@ -4288,10 +4288,10 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
 2024-08-03 11:52:16 [main] TRACE o.s.b.a.condition.OnBeanCondition - Condition OnBeanCondition on org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter did not match due to @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autoConfigurationReport'
-2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication; enhanced class name is: serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication$$SpringCGLIB$$0
-2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'twitterToKafkaServiceApplication' existing class 'serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication' with enhanced class 'serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication$$SpringCGLIB$$0'
-2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced serg.shamiryan.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData; enhanced class name is: serg.shamiryan.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$SpringCGLIB$$0
-2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'twitterToKafkaServiceConfigData' existing class 'serg.shamiryan.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData' with enhanced class 'serg.shamiryan.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$SpringCGLIB$$0'
+2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication; enhanced class name is: service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication$$SpringCGLIB$$0
+2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'twitterToKafkaServiceApplication' existing class 'service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication' with enhanced class 'service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication$$SpringCGLIB$$0'
+2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced config.service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceConfigData; enhanced class name is: config.service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceConfigData$$SpringCGLIB$$0
+2024-08-03 11:52:16 [main] TRACE o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'twitterToKafkaServiceConfigData' existing class 'config.service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceConfigData' with enhanced class 'config.service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceConfigData$$SpringCGLIB$$0'
 2024-08-03 11:52:16 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'propertySourcesPlaceholderConfigurer'
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'propertySourcesPlaceholderConfigurer'
@@ -4568,9 +4568,9 @@ javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties'
 2024-08-03 11:52:16 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
-2024-08-03 11:52:16 [main] TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication$$SpringCGLIB$$0
-2024-08-03 11:52:16 [main] TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: serg.shamiryan.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$SpringCGLIB$$0
-2024-08-03 11:52:16 [main] TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication$$Lambda/0x000001dc0131d240
+2024-08-03 11:52:16 [main] TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication$$SpringCGLIB$$0
+2024-08-03 11:52:16 [main] TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: config.service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceConfigData$$SpringCGLIB$$0
+2024-08-03 11:52:16 [main] TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication$$Lambda/0x000001dc0131d240
 2024-08-03 11:52:16 [main] TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
 2024-08-03 11:52:16 [main] TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
 2024-08-03 11:52:16 [main] TRACE o.s.c.e.EventListenerMethodProcessor - No @EventListener annotations found on bean class: com.sun.jmx.mbeanserver.JmxMBeanServer
@@ -5531,9 +5531,9 @@ Unconditional classes:
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 2024-08-03 12:49:35 [main] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "serg.shamiryan.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData.getMockSleepMs()" is null
-	at serg.shamiryan.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:75)
-	at serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication.lambda$runner$0(TwitterToKafkaServiceApplication.java:30)
+java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "config.service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceConfigData.getMockSleepMs()" is null
+	at runner.service.kafka.to.twitter.serg.shamiryan.common.config.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:75)
+	at service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication.lambda$runner$0(TwitterToKafkaServiceApplication.java:30)
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
@@ -5553,7 +5553,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" becau
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:24)
+	at service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:24)
 2024-08-03 13:17:00 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 24748 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
 2024-08-03 13:17:00 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
 2024-08-03 13:17:01 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.909 seconds (process running for 1.784)
@@ -5561,9 +5561,9 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" becau
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 2024-08-03 13:17:01 [main] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "serg.shamiryan.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData.getMockSleepMs()" is null
-	at serg.shamiryan.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:75)
-	at serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication.lambda$runner$0(TwitterToKafkaServiceApplication.java:30)
+java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "config.service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceConfigData.getMockSleepMs()" is null
+	at runner.service.kafka.to.twitter.serg.shamiryan.common.config.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:75)
+	at service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication.lambda$runner$0(TwitterToKafkaServiceApplication.java:30)
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
@@ -5583,7 +5583,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" becau
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:24)
+	at service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:24)
 2024-08-03 13:17:15 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 34220 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
 2024-08-03 13:17:15 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
 2024-08-03 13:17:15 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.864 seconds (process running for 1.706)
@@ -5591,9 +5591,9 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" becau
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
 2024-08-03 13:17:19 [main] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "serg.shamiryan.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData.getMockSleepMs()" is null
-	at serg.shamiryan.twitter.to.kafka.service.runner.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:75)
-	at serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication.lambda$runner$0(TwitterToKafkaServiceApplication.java:30)
+java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" because the return value of "config.service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceConfigData.getMockSleepMs()" is null
+	at runner.service.kafka.to.twitter.serg.shamiryan.common.config.MockKafkaStreamRunner.start(MockKafkaStreamRunner.java:75)
+	at service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication.lambda$runner$0(TwitterToKafkaServiceApplication.java:30)
 	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
 	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
 	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
@@ -5613,7 +5613,7 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Long.longValue()" becau
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
-	at serg.shamiryan.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:24)
+	at service.kafka.to.twitter.serg.shamiryan.common.config.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:24)
 2024-08-03 13:18:01 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 21.0.3 with PID 30552 (C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic\twitter-to-kafka-service\target\classes started by lapta in C:\Users\lapta\IdeaProjects\eventDrivenWithKafkaAndElastic)
 2024-08-03 13:18:01 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
 2024-08-03 13:18:01 [main] INFO  s.s.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.884 seconds (process running for 1.722)
