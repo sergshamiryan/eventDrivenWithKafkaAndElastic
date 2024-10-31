@@ -20,7 +20,6 @@
             <dependency>
                 <groupId>serg.shamiryan</groupId>
                 <artifactId>app-config-data</artifactId>
-                <version>${project.version}</version>
             </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

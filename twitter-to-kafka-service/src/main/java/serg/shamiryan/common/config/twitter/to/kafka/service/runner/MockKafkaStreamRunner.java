@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 import serg.shamiryan.common.config.twitter.to.kafka.service.listener.TwitterKafkaStatusListener;
-import serg.shamiryan.common.config.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData;
+import serg.shamiryan.config.TwitterToKafkaServiceConfigData;
 import twitter4j.Status;
 import twitter4j.TwitterException;
 import twitter4j.TwitterObjectFactory;
@@ -72,7 +72,7 @@ public class MockKafkaStreamRunner {
         final String[] keywords =  twitterToKafkaServiceConfigData.getTwitterKeywords().toArray(new String[0]);
         final int minTweetLength = twitterToKafkaServiceConfigData.getMockMinTweetLength();
         final int maxTweetLength = twitterToKafkaServiceConfigData.getMockMaxTweetLength();
-        long sleepTimeMs = twitterToKafkaServiceConfigData.getMockSleepMax();
+        long sleepTimeMs = twitterToKafkaServiceConfigData.getMockSleepMs();
         log.info("Starting mock filtering twitter streams for keywords {}", Arrays.toString(keywords));
         simulateTwitterStream(keywords, minTweetLength, maxTweetLength, sleepTimeMs);
     }

@@ -28,3 +28,14 @@ kafka-config:
   num-of-partitions: 3
   replication-factor: 3
 
+kafka-producer-config:
+  key-serializer-class: org.apache.kafka.common.serialization.LongSerializer
+  value-serializer-class: io.confluent.kafka.serializers.KafkaAvroSerializer
+  compression-type: snappy #Higher compress/decompress speed
+  acsk: all #wait acknowledgment from all replicas other 0 and 1
+  batch-size: 16384 #kilo byte
+  batch-size-boost-factor: 100 #Tune for higher throughput
+  linger-ms: 5 #
+  request-timeout-ms: 60000
+  retry-count: 5
+

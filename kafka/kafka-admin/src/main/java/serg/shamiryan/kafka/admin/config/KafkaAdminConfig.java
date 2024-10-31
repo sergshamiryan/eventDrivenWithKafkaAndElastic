@@ -1,5 +1,6 @@
 package serg.shamiryan.kafka.admin.config;
 
+import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.CommonClientConfigs;
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.CreateTopicsResult;
@@ -12,13 +13,10 @@ import java.util.Map;
 
 @EnableRetry
 @Configuration
+@RequiredArgsConstructor
 public class KafkaAdminConfig {
 
     private final KafkaConfigData kafkaConfigData;
-
-    public KafkaAdminConfig(KafkaConfigData kafkaConfigData) {
-        this.kafkaConfigData = kafkaConfigData;
-    }
 
     @Bean
     public AdminClient adminClient() {
