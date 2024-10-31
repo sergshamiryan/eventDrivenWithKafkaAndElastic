@@ -66,7 +66,7 @@ public class KafkaAdminClient {
         Collection<TopicListing> topics = getTopics();
         int retryCount = 1;
         Long sleepTimeMs = retryConfigData.getSleepTimeMs();
-        while (getSchemeRegistryStatus().is2xxSuccessful()) {
+        while (!getSchemeRegistryStatus().is2xxSuccessful()) {
             checkMaxRetry(retryCount++, retryConfigData.getMaxAttempts());
             sleep(sleepTimeMs);
             sleepTimeMs *= retryConfigData.getMultiplier().intValue();

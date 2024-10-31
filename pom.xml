@@ -50,6 +50,11 @@
                 <version>${spring-boot.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.9.19</version> <!-- or the latest stable version -->
+            </dependency>
+            <dependency>
                 <groupId>serg.shamiryan</groupId>
                 <artifactId>app-config-data</artifactId>
                 <version>${project.version}</version>

@@ -60,6 +60,10 @@
             <groupId>serg.shamiryan</groupId>
             <artifactId>kafka-producer</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -69,7 +73,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        ${project.groupId}/twitter.to.kafka.service:${project.version}
+                        <name>${project.groupId}/twitter.to.kafka.service:${project.version}</name>
                     </image>
                 </configuration>
                 <executions>
