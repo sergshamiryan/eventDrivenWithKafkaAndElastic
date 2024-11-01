@@ -69,7 +69,7 @@ public class KafkaAdminClient {
         int retryCount = 1;
         Long sleepTimeMs = retryConfigData.getSleepTimeMs();
         while (!getSchemeRegistryStatus().is2xxSuccessful()) {
-            checkMaxRetry(retryCount++, retryConfigData.getMaxAttempts());
+            checkMaxRetrySchemeRegistry(retryCount++, retryConfigData.getMaxAttempts());
             sleep(sleepTimeMs);
             sleepTimeMs *= retryConfigData.getMultiplier().intValue();
         }
@@ -91,6 +91,12 @@ public class KafkaAdminClient {
     private void checkMaxRetry(int retry, Integer maxRetry) {
         if (retry > maxRetry) {
             throw new KafkaClientException("Reached max number of retry for reading kafka topic(s)");
+        }
+    }
+
+    private void checkMaxRetrySchemeRegistry(int retry, Integer maxRetry) {
+        if (retry > maxRetry) {
+            throw new KafkaClientException("Reached max number of retry for schema registry");
         }
     }
 

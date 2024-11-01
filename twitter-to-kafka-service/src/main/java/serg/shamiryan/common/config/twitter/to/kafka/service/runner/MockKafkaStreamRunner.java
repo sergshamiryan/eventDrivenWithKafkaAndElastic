@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 import serg.shamiryan.common.config.twitter.to.kafka.service.listener.TwitterKafkaStatusListener;
+import serg.shamiryan.config.RetryConfigData;
 import serg.shamiryan.config.TwitterToKafkaServiceConfigData;
 import twitter4j.Status;
 import twitter4j.TwitterException;
@@ -61,20 +62,21 @@ public class MockKafkaStreamRunner {
             "}";
 
     private static final String TWITTER_STATUS_DATE_FORMAT = "EEE MMM dd HH:mm:ss zzz yyyy";
+    private final RetryConfigData retryConfigData;
 
     public MockKafkaStreamRunner(TwitterToKafkaServiceConfigData configData,
-                                 TwitterKafkaStatusListener statusListener) {
+                                 TwitterKafkaStatusListener statusListener, RetryConfigData retryConfigData) {
         this.twitterToKafkaServiceConfigData = configData;
         this.twitterKafkaStatusListener = statusListener;
+        this.retryConfigData = retryConfigData;
     }
 
     public void start() throws TwitterException {
         final String[] keywords =  twitterToKafkaServiceConfigData.getTwitterKeywords().toArray(new String[0]);
         final int minTweetLength = twitterToKafkaServiceConfigData.getMockMinTweetLength();
         final int maxTweetLength = twitterToKafkaServiceConfigData.getMockMaxTweetLength();
-        long sleepTimeMs = twitterToKafkaServiceConfigData.getMockSleepMax();
         log.info("Starting mock filtering twitter streams for keywords {}", Arrays.toString(keywords));
-        simulateTwitterStream(keywords, minTweetLength, maxTweetLength, sleepTimeMs);
+        simulateTwitterStream(keywords, minTweetLength, maxTweetLength, 1000);
     }
 
     private void simulateTwitterStream(String[] keywords, int minTweetLength, int maxTweetLength, long sleepTimeMs) {

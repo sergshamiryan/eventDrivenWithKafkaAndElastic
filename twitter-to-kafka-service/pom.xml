@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>serg.shamiryann</groupId>
+    <groupId>serg.shamiryan</groupId>
     <artifactId>twitter-to-kafka-service</artifactId>
 
     <properties>
@@ -80,6 +80,8 @@
                     <execution>
                         <phase>install</phase>
                         <goals>
+<!--                            The image is created with layered approach, it means if there is an update no need to
+                                the whole jar-->
                             <goal>build-image</goal>
                         </goals>
                     </execution>
