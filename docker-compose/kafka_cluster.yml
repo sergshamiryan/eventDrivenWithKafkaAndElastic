@@ -13,7 +13,7 @@ services:
       ZOOKEEPER_SYNC_LIMIT: 2
       ZOOKEEPER_SERVERS: zookeeper:2888:3888
     networks:
-      - sergshamiryan
+      - ${GLOBAL_NETWORK:-kafka}
   schema-registry:
     image: confluentinc/cp-schema-registry:${KAFKA_VERSION}
     hostname: schema-registry
@@ -30,7 +30,7 @@ services:
       SCHEMA_REGISTRY_LISTENERS: http://schema-registry:8081
       SCHEMA_REGISTRY_DEBUG: 'true'
     networks:
-      - sergshamiryan
+      - ${GLOBAL_NETWORK:-kafka}
   kafka-broker-1:
     image: confluentinc/cp-kafka:${KAFKA_VERSION}
     hostname: kafka-broker-1
@@ -46,8 +46,7 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_COMPRESSION_TYPE: producer
     networks:
-      - sergshamiryan
-
+      - ${GLOBAL_NETWORK:-kafka}
   kafka-broker-2:
     image: confluentinc/cp-kafka:${KAFKA_VERSION}
     hostname: kafka-broker-2
@@ -63,7 +62,7 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_COMPRESSION_TYPE: producer
     networks:
-      - sergshamiryan
+      - ${GLOBAL_NETWORK:-kafka}
   kafka-broker-3:
     image: confluentinc/cp-kafka:${KAFKA_VERSION}
     hostname: kafka-broker-3
@@ -79,8 +78,4 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_COMPRESSION_TYPE: producer
     networks:
-      - sergshamiryan
-
-networks:
-  sergshamiryan:
-    driver: bridge
+      - ${GLOBAL_NETWORK:-kafka}
