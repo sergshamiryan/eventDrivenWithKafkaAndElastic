@@ -23,9 +23,11 @@
         <module>kafka/kafka-model</module>
         <module>kafka/kafka-admin</module>
         <module>kafka/kafka-producer</module>
+        <module>kafka/kafka-consumer</module>
         <module>twitter-to-kafka-service</module>
         <module>common-config</module>
         <module>app-config-data</module>
+        <module>kafka-to-elastic-service</module>
     </modules>
 
     <repositories>
@@ -77,6 +79,11 @@
             <dependency>
                 <groupId>serg.shamiryan</groupId>
                 <artifactId>kafka-producer</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>serg.shamiryan</groupId>
+                <artifactId>kafka-consumer</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

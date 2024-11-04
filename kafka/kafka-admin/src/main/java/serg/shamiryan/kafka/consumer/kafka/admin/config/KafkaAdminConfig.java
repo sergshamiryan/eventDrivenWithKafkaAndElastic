@@ -23,5 +23,4 @@ public class KafkaAdminConfig {
                 Map.of(CommonClientConfigs.BOOTSTRAP_SERVERS_CONFIG,
                         kafkaConfigData.getBootstrapServers()));
     }
-
 }

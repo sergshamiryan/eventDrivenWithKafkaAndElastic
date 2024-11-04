@@ -12,7 +12,6 @@ import serg.shamiryan.kafka.consumer.common.config.twitter.to.kafka.service.init
 import serg.shamiryan.kafka.consumer.common.config.twitter.to.kafka.service.runner.MockKafkaStreamRunner;
 
 @SpringBootApplication
-@RequiredArgsConstructor
 @ComponentScan(basePackages = "serg.shamiryan")
 public class TwitterToKafkaServiceApplication {
 
