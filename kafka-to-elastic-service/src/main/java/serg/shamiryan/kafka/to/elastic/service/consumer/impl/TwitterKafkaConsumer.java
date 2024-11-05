@@ -2,7 +2,6 @@ package serg.shamiryan.kafka.to.elastic.service.consumer.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.config.KafkaListenerEndpointRegistry;
 import org.springframework.kafka.support.KafkaHeaders;
@@ -27,9 +26,17 @@ public class TwitterKafkaConsumer implements KafkaConsumer<Long, TwitterAvroMode
 
     private final KafkaConfigData kafkaConfigData;
 
+
+//    @EventListener
+//    public void onAppStartup(ApplicationStartedEvent event) {
+//        kafkaAdminClient.checkTopicsCreated();
+//        log.info("Topics with name {} is ready for operations", kafkaConfigData.getTopicNamesToCreate().toArray());
+//        kafkaListenerEndpointRegistry.getListenerContainer("twitterTopicListener").start();
+//    }
+
     @Override
     //Create Kafka Consumer
-    @KafkaListener(id = "twitterTopicListener"/*Listener id,not group id*/, topics = "${kafka-config.topic-name}")
+    @KafkaListener(id = "twitterTopicListener"/*Listener id, not group id*/, topics = "${kafka-config.topic-name}")
     public void receive(@Payload List<TwitterAvroModel> messages,
                         @Header(KafkaHeaders.RECEIVED_KEY) List<Integer> keys,
                         @Header(KafkaHeaders.RECEIVED_PARTITION) List<Integer> partitions,
