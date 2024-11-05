@@ -1,6 +1,8 @@
 package serg.shamiryan.kafka.consumer.config;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import serg.shamiryan.config.KafkaConfigData;
 import serg.shamiryan.config.KafkaConsumerConfigData;
 import org.apache.avro.specific.SpecificRecordBase;
@@ -61,7 +63,5 @@ public class KafkaConsumerConfig<K extends Serializable, V extends SpecificRecor
         factory.setAutoStartup(kafkaConsumerConfigData.getAutoStartup());
         factory.getContainerProperties().setPollTimeout(kafkaConsumerConfigData.getPollTimeoutMs());
         return factory;
-
-
     }
 }

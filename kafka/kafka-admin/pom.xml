@@ -17,6 +17,10 @@
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
         </dependency>
+        <dependency>
+            <groupId>serg.shamiryan</groupId>
+            <artifactId>common-config</artifactId>
+        </dependency>
             <dependency>
                 <groupId>serg.shamiryan</groupId>
                 <artifactId>app-config-data</artifactId>

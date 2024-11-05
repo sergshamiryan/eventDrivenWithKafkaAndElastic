@@ -39,6 +39,10 @@
             <artifactId>kafka-consumer</artifactId>
         </dependency>
         <dependency>
+            <groupId>serg.shamiryan</groupId>
+            <artifactId>kafka-admin</artifactId>
+        </dependency>
+        <dependency>
             <groupId>io.confluent</groupId>
             <artifactId>kafka-avro-serializer</artifactId>
         </dependency>
