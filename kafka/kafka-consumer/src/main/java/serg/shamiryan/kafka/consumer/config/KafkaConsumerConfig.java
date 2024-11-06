@@ -1,10 +1,6 @@
 package serg.shamiryan.kafka.consumer.config;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
-import serg.shamiryan.config.KafkaConfigData;
-import serg.shamiryan.config.KafkaConsumerConfigData;
 import org.apache.avro.specific.SpecificRecordBase;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.springframework.context.annotation.Bean;
@@ -15,6 +11,8 @@ import org.springframework.kafka.config.KafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 import org.springframework.kafka.listener.ConcurrentMessageListenerContainer;
+import serg.shamiryan.config.KafkaConfigData;
+import serg.shamiryan.config.KafkaConsumerConfigData;
 
 import java.io.Serializable;
 import java.util.HashMap;

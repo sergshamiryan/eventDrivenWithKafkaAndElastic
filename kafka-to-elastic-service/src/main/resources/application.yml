@@ -30,7 +30,7 @@ kafka-consumer-config:
   #  For consuming the data in batches
   batch-listener: true
   #  We want to start listening to topic after checking that the topic is there so we set auto startup to false
-  auto-startup: true
+  auto-startup: false
   # Sets the number of threads to work on consuming, which is equal to partition number
   concurrency-level: 3
   #  Broker needs to get at least one heartbeat signal from consumer, otherwise will mark the consumer as dead,def 10 sec
