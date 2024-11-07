@@ -15,7 +15,7 @@ services:
 #     Prevent the operating system from swapping(Paging) the application’s memory to disk.
       - bootstrap.memory_lock=true
 #     Set JVM memory settings, like initial and maximum JVM memory variables to 512 MB
-      - "ES_JAVA_OPTS=-Xms512m -Xms512m"
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
 #     Memlock property to give permission to ElasticSearch to be able to lock memory
     ulimits:
       memlock:
@@ -35,7 +35,7 @@ services:
       - discovery.seed_hosts=elastic-1,elastic-3
       - cluster.initial_master_nodes=elastic-1,elastic-2,elastic-3
       - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xms512m"
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     ulimits:
       memlock:
         soft: -1
@@ -52,7 +52,7 @@ services:
       - discovery.seed_hosts=elastic-1,elastic-2
       - cluster.initial_master_nodes=elastic-1,elastic-2,elastic-3
       - bootstrap.memory_lock=true
-      - "ES_JAVA_OPTS=-Xms512m -Xms512m"
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     ulimits:
       memlock:
         soft: -1

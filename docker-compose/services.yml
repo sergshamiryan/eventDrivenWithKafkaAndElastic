@@ -16,4 +16,3 @@ services:
       - "TWITTER-TO-KAFKA-SERVICE_ENABLE-MOCK-TWEETS=true"
     networks:
       - ${GLOBAL_NETWORK:-services}
-      -

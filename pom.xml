@@ -28,6 +28,7 @@
         <module>common-config</module>
         <module>app-config-data</module>
         <module>kafka-to-elastic-service</module>
+        <module>elastic</module>
     </modules>
 
     <repositories>
