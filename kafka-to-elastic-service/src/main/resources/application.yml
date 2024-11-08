@@ -48,6 +48,11 @@ kafka-consumer-config:
   #  How long we will wait until at least one record is available
   poll-timeout-ms: 150
 
+elastic-config:
+  index-name: twitter-index
+  connection-url: http://localhost:9200
+  connect-timout-ms: 5000
+  socket-timout-ms: 30000
 
 retry-config:
   initial-interval-ms: 1000
