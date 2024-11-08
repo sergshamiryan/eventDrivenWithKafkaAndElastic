@@ -2,7 +2,7 @@ package serg.shamiryan.elastic.index.client.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.context.annotation.Primary;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Service;
 import serg.shamiryan.elastic.index.client.repository.TwitterElasticsearchIndexRepository;
 import serg.shamiryan.elastic.index.client.service.ElasticIndexClient;
@@ -11,9 +11,10 @@ import serg.shamiryan.elastic.model.index.impl.TwitterIndexModel;
 import java.util.List;
 
 @Slf4j
-@Primary /*We use primary because we have now two implementations one TwitterElasticIndexClient and this one*/
+//@Primary /*We can use primary because we have now two implementations one TwitterElasticIndexClient and this one*/
 @Service
 @RequiredArgsConstructor
+@ConditionalOnProperty(name = "elastic-config.is-repository", havingValue = "true", matchIfMissing = true/*If property not found us as this*/)
 public class TwitterElasticRepositoryIndexClient implements ElasticIndexClient<TwitterIndexModel> {
 
     private final TwitterElasticsearchIndexRepository twitterElasticsearchIndexRepository;

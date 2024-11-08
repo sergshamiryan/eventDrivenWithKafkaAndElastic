@@ -53,6 +53,7 @@ elastic-config:
   connection-url: http://localhost:9200
   connect-timout-ms: 5000
   socket-timout-ms: 30000
+  is-repository: true
 
 retry-config:
   initial-interval-ms: 1000

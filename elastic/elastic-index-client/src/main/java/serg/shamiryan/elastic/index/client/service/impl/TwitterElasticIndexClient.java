@@ -2,6 +2,7 @@ package serg.shamiryan.elastic.index.client.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.data.elasticsearch.core.IndexedObjectInformation;
 import org.springframework.data.elasticsearch.core.mapping.IndexCoordinates;
@@ -15,6 +16,7 @@ import java.util.List;
 
 @Slf4j
 @RequiredArgsConstructor
+@ConditionalOnProperty(name = "elastic-config.is-repository", havingValue = "false")
 public class TwitterElasticIndexClient implements ElasticIndexClient<TwitterIndexModel> {
 
     private final ElasticConfigData elasticConfigData;
@@ -35,8 +37,10 @@ public class TwitterElasticIndexClient implements ElasticIndexClient<TwitterInde
                 IndexCoordinates.of(elasticConfigData.getIndexName())
         );
         /*returning ids of documents*/
-        return documentIds.stream()
+        List<String> ids = documentIds.stream()
                 .map(IndexedObjectInformation::id)
                 .toList();
+        log.info("Documents indexed successfully with type: {} and ids {}", TwitterIndexModel.class.getName(), ids);
+        return ids;
     }
 }
