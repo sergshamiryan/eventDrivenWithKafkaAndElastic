@@ -53,7 +53,7 @@ elastic-config:
   connection-url: localhost:9200
   connect-timeout-ms: 5000
   socket-timeout-ms: 30000
-  is-repository: true
+  is-repository: false
 
 retry-config:
   initial-interval-ms: 1000
