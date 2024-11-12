@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 @Data
 @Builder
 @AllArgsConstructor
-@Document(indexName = "#{elasticConfigData.indexName}")
+@Document(indexName = "twitter-index")
 public class TwitterIndexModel implements IndexModel {
     @JsonProperty
     private String id;

@@ -11,10 +11,12 @@ import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 import serg.shamiryan.config.KafkaConfigData;
+import serg.shamiryan.config.KafkaConsumerConfigData;
 import serg.shamiryan.elastic.index.client.service.impl.TwitterElasticRepositoryIndexClient;
 import serg.shamiryan.elastic.model.index.impl.TwitterIndexModel;
 import serg.shamiryan.kafka.admin.client.KafkaAdminClient;
 import serg.shamiryan.kafka.avro.model.TwitterAvroModel;
+import serg.shamiryan.kafka.consumer.config.KafkaConsumerConfig;
 import serg.shamiryan.kafka.to.elastic.service.consumer.KafkaConsumer;
 import serg.shamiryan.kafka.to.elastic.service.transformer.AvroToElasticModelTransformer;
 
@@ -26,6 +28,8 @@ import java.util.List;
 public class TwitterKafkaConsumer implements KafkaConsumer<Long, TwitterAvroModel> {
 
     private final KafkaListenerEndpointRegistry kafkaListenerEndpointRegistry;
+
+    private final KafkaConsumerConfigData kafkaConsumerConfigData;
 
     private final KafkaAdminClient kafkaAdminClient;
 
@@ -39,12 +43,12 @@ public class TwitterKafkaConsumer implements KafkaConsumer<Long, TwitterAvroMode
     public void onAppStarted() {
         kafkaAdminClient.checkTopicsCreated();
         log.info("Topics with name {} is ready for operations", kafkaConfigData.getTopicNamesToCreate().toArray());
-        kafkaListenerEndpointRegistry.getListenerContainer("twitterTopicListener").start();
+        kafkaListenerEndpointRegistry.getListenerContainer(kafkaConsumerConfigData.getConsumerGroupId()).start();
     }
 
     @Override
     //Create Kafka Consumer
-    @KafkaListener(id = "twitterTopicListener"/*Listener id, not group id*/, topics = "${kafka-config.topic-name}")
+    @KafkaListener(id = "${kafka-consumer-config.consumer-group-id}"/*Listener id, not group id*/, topics = "${kafka-config.topic-name}")
     public void receive(@Payload List<TwitterAvroModel> messages,
                         @Header(KafkaHeaders.RECEIVED_KEY) List<Integer> keys,
                         @Header(KafkaHeaders.RECEIVED_PARTITION) List<Integer> partitions,

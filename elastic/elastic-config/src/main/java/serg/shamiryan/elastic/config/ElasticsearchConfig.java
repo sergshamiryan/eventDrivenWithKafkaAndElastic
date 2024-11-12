@@ -21,7 +21,7 @@ public class ElasticsearchConfig extends ElasticsearchConfiguration {
     public ClientConfiguration clientConfiguration() {
         return ClientConfiguration.builder()
                 .connectedTo(elasticConfigData.getConnectionUrl())
-                .withConnectTimeout(elasticConfigData.getConnectTimoutMs())
-                .withSocketTimeout(elasticConfigData.getSocketTimeOutMs()).build();
+                .withConnectTimeout(elasticConfigData.getConnectTimeoutMs())
+                .withSocketTimeout(elasticConfigData.getSocketTimeoutMs()).build();
     }
 }
